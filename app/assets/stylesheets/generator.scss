@@ -1,3 +1,31 @@
 // Place all the styles related to the generator controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+body {
+  background-color: #B4EFE2 !important;
+}
+
+.thepurple {
+  color: #554A61 !important;
+}
+
+.generate {
+  background-color:#FFD7E9;
+  border:5px solid #fff !important;
+  font-family: Nunito, Helvetica, Arial !important;
+}
+
+#lovebox {
+  margin: 40px;
+
+  h1 {
+    font-family: Nunito, Helvetica, Arial !important;
+    text-align: center;
+    color: #554A61;
+    letter-spacing: -0.02em;
+    font-size: 40px;
+  }
+}
