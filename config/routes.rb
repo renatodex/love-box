@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/gadmin', as: 'rails_admin'
   get 'generator/index'
 
   root 'generator#index'
