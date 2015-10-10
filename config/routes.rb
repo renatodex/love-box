@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/gadmin', as: 'rails_admin'
   get 'generator/index'
+  get '/generate' => 'generator#generate', as: 'generate'
 
   root 'generator#index'
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

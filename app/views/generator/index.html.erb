@@ -11,24 +11,24 @@
 <div class="ui six column centered grid link cards">
   <div class="card">
     <div class="image">
-      <img src="<%= image_path "avatar2.png" %>" />
+      <img src="<%= image_path "avatar1.png" %>" />
     </div>
     <div class="content">
-      <div class="header">Você</div>
+      <div class="header">Eu</div>
       <div class="description">
-        Você me ama?
+        <%= @lovebox %>
       </div>
     </div>
   </div>
 
   <div class="card">
     <div class="image">
-      <img src="<%= image_path "avatar1.png" %>" />
+      <img src="<%= image_path "avatar2.png" %>" />
     </div>
     <div class="content">
-      <div class="header">Eu</div>
+      <div class="header">Você</div>
       <div class="description">
-        huuum
+        <%= @response %>
       </div>
     </div>
   </div>
@@ -37,5 +37,5 @@
 <div class="ui section divider"></div>
 
 <div class="ui three column centered grid">
-  <a href="#" class="ui button generate massive thepurple">Renato, você me ama?</a>
+  <a href="<%= generate_path %>" class="ui button generate massive thepurple">Renato, você me ama?</a>
 </div>
